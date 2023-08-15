@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Llamado styles externo-->
+    <link rel="stylesheet" href="/practico1/assets/css/styles.css">
+    <title>Calculadora Simple</title>
+</head>
+<body>
+    <head>
+        <h1>Calculadora Simple</h1>
+    </head>
+        <form action="" class="formulario">
+            <!--Centar el div con la tecnologia Flexbox-->
+            <div class="contenedora-1">
+                <div>
+                    <input type="text" name="num1" id="num1" placeholder="primer numero"  maxlength="15"/>
+                    <select name="seleccionar" id="operacion">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">x</option>
+                        <option value="/">/</option>
+                    </select>
+                    <input type="text" name="num2" id="num2" placeholder="segundo numero"  maxlength="15" />
+                    <button type="button" class="boton" onclick="Calculadora()">Calcular</button>
+                    <button type="reset" class="boton" value="Reset">Resetear</button>
+                </div>   
+                <div class=" contenedora-2">
+                    <label for="Respuesta">Resultado:</label>
+                    <p id="result"></p>
+                </div>           
+            </div>          
+        </form>
+    <!-- Llamando mi archivo JavaScript-->
+    <script src="/practico1/assets/js/main.js"></script>    
+</body>
+</html>

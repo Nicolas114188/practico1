@@ -1,0 +1,37 @@
+body{
+    background-image: url("/practico1/assets/img/fondo\ matematico.jpg");
+    background-size: cover;
+}
+body >h1{
+    color: rgb(168, 23, 48);
+    text-shadow: 3px 5px 8px rgba(1, 1, 1, 0.3);
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 40px;
+}
+.boton{
+    background-color: #4c664d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#num1, #num2, #operacion{
+    font-size: 20px;
+    border-radius: 30px;
+}
+label, p{
+    font-size: 35px;
+}
+.contenedora-1,.contenedora-2{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 20px;   
+}
